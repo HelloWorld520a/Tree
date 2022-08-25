@@ -64,7 +64,7 @@ function dismiss(callback) {
 }
 
 function showFirst() {
-    confirm("XX小姐姐！", "我中意你啊，做我女朋友好么？", "兴奋.gif", '我答应！', '我拒绝！', function () {
+    confirm("靓女 ", "我中意你啊，做我女朋友好么？", "兴奋.gif", '我答应！', '我拒绝！', function () {
         showAgree()
     }, function () {
         showSecond();
@@ -96,7 +96,7 @@ function restart() {
 }
 
 function showSecond() {
-    alertWithoutTitle("别酱......再考虑考虑呗......", "吐血.gif", "好的", function() {
+    alertWithoutTitle("别酱紫......再考虑考虑呗......", "吐血.gif", "好的", function() {
         showThird();
     })
 }
